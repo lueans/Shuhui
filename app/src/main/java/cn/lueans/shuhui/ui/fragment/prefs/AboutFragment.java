@@ -82,7 +82,7 @@ public class AboutFragment extends PreferenceFragment{
         prefSourceCode.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                String sourceCode = "https://lueans.github.io";
+                String sourceCode = "https://github.com/lueans/Shuhui";
                 BrowserUtils.openInBrowser(getActivity(),sourceCode);
                 return true;
             }
