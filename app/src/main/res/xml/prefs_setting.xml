@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<PreferenceCategory
+        android:title="常用">
+        <ListPreference
+            android:key="cache_position"
+            android:title="缓存目录"
+            android:summary="内置SD卡"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="缓存目录设置"/>
+        <Preference
+            android:title="清除缓存"
+            android:key="Clear_cache"/>
+    </PreferenceCategory>-->
+
+
+    <PreferenceCategory
+        android:title="其他">
+        <Preference
+            android:title="退出登陆"
+            android:key="logout"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

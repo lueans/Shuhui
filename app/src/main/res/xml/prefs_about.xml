@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="关于">
+        <Preference
+            android:title="版本"
+            android:key="app_version"
+            android:summary="1.0debug"/>
+        <Preference
+            android:title="开发者"
+            android:key="app_developer"
+            android:summary="lueans"/>
+        <Preference
+            android:title="开源许可"
+            android:key="licenses"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="鸣谢">
+        <Preference
+            android:title="hugeterry"
+            android:key="hugeterry"
+            android:summary="coderfun「趣刻app」"/>
+        <Preference
+            android:title="lufficc"
+            android:key="lufficc"
+            android:summary="iShuiHui「鼠绘鼠绘漫画非app」"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="支持">
+        <Preference
+            android:title="Github开源代码"
+            android:key="source_code"
+            android:summary="https://lueans.github.io"/>
+        <Preference
+            android:title="意见反馈"
+            android:key="feedback"
+            android:summary="发动你灵活的思维，给愚笨的开发者一些建议！"/>
+        <Preference
+            android:title="捐赠"
+            android:key="donate"
+            android:summary="动动你发财的小手，为我买一杯咖啡，让我在深夜里还能敲代码！"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

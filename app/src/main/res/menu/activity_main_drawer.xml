@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="全部" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="同人" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_mouse_black_24dp"
+            android:title="鼠绘" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="热血" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_black_24dp"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>
